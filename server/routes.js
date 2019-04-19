@@ -168,7 +168,7 @@ router.get('*', async (ctx, next) => {
 });
 
 // middleware
-if(!!process.env.LDAP_REVERSE_PROXY_HEADER){
+if (!!process.env.LDAP_REVERSE_PROXY_HEADER) {
   koa.use(ldapReverseProxy());
 }
 koa.use(apexRedirect());
