@@ -188,5 +188,5 @@
   "resolutions": {
     "js-yaml": "^3.13.1"
   },
-  "version": "0.19.1-ldap"
+  "version": "0.19.2-ldap"
 }
